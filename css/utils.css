@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:wght@300&family=Roboto&family=Ubuntu&display=swap');
+
+.font-robot{
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-ubuntu{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.font-inter{
+    font-family: 'Inter', sans-serif;
+}
+
+.font-sans{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.final-width{
+    max-width:80vw;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-c{
+    display: flex;
+    flex-direction:column
+}
+
+.items-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-around{
+    justify-content: space-around;
+}
+
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ml-4{
+    margin-left:4px;
+}
+
+.mt-16{
+    margin-top:16px
+}
+
+.mt-25{
+    margin-top:25px;
+}
+
+.pl-4{
+    padding-left: 4px;
+}
+
+.pt-16{
+    padding-top: 16px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.font-bold{
+    font-weight: bold;
+}
+
+.theme-bg{
+    background:rgb(157, 0, 255);
+}
+
+.theme-color{
+    color: rgb(157, 0, 255);
+}
+
+.bg-red{
+    background: red;
+}
+
+.color-white{
+    color:white;
+}
+
+.color-black{
+    color:black;
+}
+
+.bg-black{
+    background: rgb(39, 39, 39);
+}
+
+.h-65{
+    height:65px;
+}
+
+.btn{
+    border:none;
+    cursor:pointer;
+    height:38px;
+    width:90px;
+    border-radius:10px;
+    font-size: 1rem;
+    color:white;
+    background: rgb(157, 0, 255);
+}
+
+.full-page{
+    height:100vh;
+}
+
+.h1{
+    font-size:2.5rem;
+}
+
+.box{
+    height:300px;
+    width:250px;
+    border:3px solid rgb(157, 0, 255);
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin:16px 10px;
+}
