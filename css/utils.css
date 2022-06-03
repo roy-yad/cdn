@@ -16,15 +16,11 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.final-width{
-    max-width:80vw;
-}
-
 .flex{
     display: flex;
 }
 
-.flex-c{
+.flex-col{
     display: flex;
     flex-direction:column
 }
@@ -50,60 +46,44 @@
     margin-right: auto;
 }
 
-.ml-4{
-    margin-left:4px;
-}
-
-.mt-16{
-    margin-top:16px
-}
-
-.mt-25{
-    margin-top:25px;
-}
-
-.pl-4{
-    padding-left: 4px;
-}
-
-.pt-16{
-    padding-top: 16px;
-}
-
 .text-center{
     text-align: center;
 }
 
 .font-bold{
-    font-weight: bold;
+    font-weight: 600;
 }
 
-.theme-bg{
-    background:rgb(157, 0, 255);
+.font-bolder{
+    font-weight: 700;
 }
 
-.theme-color{
-    color: rgb(157, 0, 255);
+.font-boldest{
+    font-weight: 800;
+}
+
+.font-super-bold{
+    font-weight: 900;
 }
 
 .bg-red{
     background: red;
 }
 
-.color-white{
+.text-white{
     color:white;
 }
 
-.color-black{
+.text-black{
     color:black;
 }
 
 .bg-black{
-    background: rgb(39, 39, 39);
+    background: black;
 }
 
-.h-65{
-    height:65px;
+.bg-white{
+    color:white;
 }
 
 .btn{
@@ -113,26 +93,10 @@
     width:90px;
     border-radius:10px;
     font-size: 1rem;
-    color:white;
-    background: rgb(157, 0, 255);
 }
+
+/* .btn-sm btn-lg margin padding container grid*/
 
 .full-page{
     height:100vh;
-}
-
-.h1{
-    font-size:2.5rem;
-}
-
-.box{
-    height:300px;
-    width:250px;
-    border:3px solid rgb(157, 0, 255);
-    border-radius: 10px;
-    display:flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    margin:16px 10px;
 }
